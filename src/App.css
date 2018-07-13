@@ -1,7 +1,55 @@
 @import '~antd/dist/antd.css';
 
 .logo {
-  height: 32px;
-  background: rgba(255,255,255,.2);
-  margin: 16px;
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+    text-align: center;
+}
+
+.ant-layout {
+    height: 100%;
+    min-height: 100%;
+}
+
+.ant-layout-content {
+    height: 100%;
+    min-height: 100%;
+    margin: 24px 16px 24px;
+    overflow: initial;
+}
+
+#wrapper {
+    height: 100%;
+}
+
+#header-wrapper {
+    width: 100%;
+    padding: 24px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contents-wrapper {
+    min-height: 80%;
+    padding: 24px;
+    background: linear-gradient(180deg, #f2feff, #fcf4ff);
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 800px) {
+
+.ant-layout-sider-trigger {
+    display: none;
+}
+
+}
+
+@media only screen and (max-device-width: 500px) {
+
+#header-wrapper {
+    justify-content: space-around;
+}
+
 }
