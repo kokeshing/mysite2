@@ -2,14 +2,19 @@
   "short_name": "kokeshing.com",
   "name": "kokeshing.com",
   "icons": [
-    {
-      "src": "https://kokeshing.com/favicon.ico",
-      "sizes": "152x152 144x144 128x128 64x64 48x48",
-      "type": "image/x-icon"
-    }
-  ],
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
   "start_url": "https://kokeshing.com",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1890ff",
+  "background_color": "#f6f6f6"
 }
